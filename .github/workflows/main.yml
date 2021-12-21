@@ -11,7 +11,7 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.2.0
       with:
-        server: ftp://anakdanremaja.online
+        server: ftp://31.220.110.111
         username: u201350618
         password: ${{ secrets.ftp_password }}
         protocol: ftp
