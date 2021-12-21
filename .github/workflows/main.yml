@@ -11,12 +11,12 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.2.0
       with:
-        server: ftp://anakdanremaja.online
-        username: u201350618
+        server: ftp.anakdanremaja.online
+        username: u201350618.wooyoo
         password: ${{ secrets.ftp_password }}
         protocol: ftp
         port: 21
-        server-dir: public_html/
+        server-dir: home/u201350618/domains/anakdanremaja.online/public_html/
         exclude: |
           **/.git*
           **/.git*/**
